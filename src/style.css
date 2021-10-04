@@ -1,0 +1,61 @@
+body {
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  font-family: "Inter";
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  z-index: 9999;
+}
+
+footer {
+  margin: 50px auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #000;
+}
+
+h2::first-letter {
+  text-transform: uppercase;
+}
+p::first-letter {
+  text-transform: uppercase;
+}
+
+div {
+  padding: 15px 20px;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  margin-bottom: 20px;
+  min-width: 180px;
+  max-width: 750px;
+}
+
+.title,
+.link {
+  text-align: center;
+}
+
+.title::first-letter {
+  text-transform: uppercase;
+}
+
+.link a {
+  color: dodgerblue;
+  text-transform: lowercase;
+}
+
+.big-text {
+  font-weight: 800;
+}
